@@ -1,0 +1,79 @@
+/* Hero dengan background lembut */
+.hero {
+  padding: 60px 20px;
+  background: linear-gradient(to right, #f8f9fa, #ffe6eb);
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #b80f3e;
+  font-family: 'Playfair Display', serif;
+}
+
+.hero p.lead {
+  font-size: 1.2rem;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Font Styling */
+.serif {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  color: #4a2c2a;
+}
+
+.sans-serif {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  color: #2e2e2e;
+}
+
+/* List Styling */
+.albums ul {
+  list-style-type: square;
+  padding-left: 20px;
+  color: #444;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Link Styling */
+.links a {
+  color: #b80f3e;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+.links a:hover {
+  text-decoration: underline;
+  color: #ff477e;
+}
+
+/* Table Styling */
+.awards table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+.awards th, .awards td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+.awards th {
+  background-color: #f2d6dc;
+}
+
+/* Box Model */
+.box-model .box {
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid #b80f3e;
+  outline: 2px dashed #ff80a0;
+  background: #fff5f7;
+  border-radius: 8px;
+  max-width: 400px;
+  font-family: 'Poppins', sans-serif;
+}
